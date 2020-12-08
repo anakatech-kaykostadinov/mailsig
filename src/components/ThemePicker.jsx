@@ -1,17 +1,11 @@
 import React from 'react'
-import Theme from './Theme'
 
-function ThemePicker() {
-    const themeDesigns = [
-        'nm',
-        'np'
-    ]
+function ThemePicker(props) {
+    const {selected, setSelected} = props
 
     return (
         <div>
-            {themeDesigns.forEach(themeName => {
-                <Theme name={themeName} />
-            })}
+            <img src="" alt="" name='np' onClick={e => setSelected(e.target.name)}/>
         </div>
     )
 }

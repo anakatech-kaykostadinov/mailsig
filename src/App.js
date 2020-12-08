@@ -23,14 +23,16 @@ function App() {
     }
   })
 
-  const [selected, setSelected] = useState('');
+const [selected, setSelected] = useState('')
+
+
 
   return (
     <div className="ms-main">
       <Header />
       <main>
         <Editor data={data} setData={setData} />
-        <ThemePicker />
+        <ThemePicker selected={selected} setSelected={setSelected} />
       </main>
       <Footer />
     </div>
