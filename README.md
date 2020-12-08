@@ -1,0 +1,2 @@
+# mailsig
+Email signature editor
