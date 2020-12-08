@@ -1,20 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 
-function Editor() {
-    const [data, setData] = useState({
-        name: '',
-        title: '',
-        phone: '',
-        fax: '',
-        website: '',
-        address: '',
-        social: {
-            fb: '',
-            ig: '',
-            linkedin: '',
-        }
-    })
+function Editor(props) {
+    const {data, setData} = props
 
     return (
         <div className='ms-main__editor'>
