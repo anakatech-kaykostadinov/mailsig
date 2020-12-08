@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -17,24 +17,25 @@ function App() {
     website: '',
     address: '',
     social: {
-        fb: '',
-        ig: '',
-        linkedin: '',
+      fb: '',
+      ig: '',
+      linkedin: '',
     }
-})
+  })
 
-console.log(data);
+  const [selected, setSelected] = useState('');
 
   return (
     <div className="ms-main">
-      <Header/>
+      <Header />
       <main>
         <Editor data={data} setData={setData} />
-
+        <ThemePicker />
       </main>
       <Footer />
     </div>
   );
 }
+
 
 export default App;

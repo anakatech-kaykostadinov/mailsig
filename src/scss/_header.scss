@@ -7,11 +7,19 @@
         padding: 0 60px;
         display: flex;
         justify-content: center;
+        
 
+        img{
+            width: 70px;
+            margin-right: 20px;
+        }
+        h3{
+            font-size: 2rem;
+            margin: 5px 0 0;
+        }
         h5 {
-            margin: 1rem;
-            display: flex;
-            align-items: center;
+            text-align: center;
+            margin: 0;
         }
     }
 }

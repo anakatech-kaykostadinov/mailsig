@@ -4,12 +4,13 @@ import Theme from './Theme'
 function ThemePicker() {
     const themeDesigns = [
         'nm',
+        'np'
     ]
 
     return (
         <div>
-            {themeDesigns.foreach( theme => {
-                <Theme name={theme} />
+            {themeDesigns.forEach(themeName => {
+                <Theme name={themeName} />
             })}
         </div>
     )
