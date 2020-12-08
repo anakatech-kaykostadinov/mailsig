@@ -1,0 +1,13 @@
+// main: style.scss
+
+.ms-main {
+    &__footer {
+        background-color: $primary;
+        color: whitesmoke;
+        padding: 1.5rem 0;
+
+        p {
+            text-align: center;
+        }
+    }
+}

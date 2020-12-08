@@ -1,0 +1,17 @@
+// main: style.scss
+
+.ms-main {
+    &__header {
+        background-color: darken(#282C34, 2);
+        color: whitesmoke;
+        padding: 0 60px;
+        display: flex;
+        justify-content: center;
+
+        h5 {
+            margin: 1rem;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
