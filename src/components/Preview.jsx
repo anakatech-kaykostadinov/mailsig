@@ -1,10 +1,11 @@
 import React from 'react'
 import Theme from './Theme'
 
-function Preview() {
+function Preview(props) {
+
     return (
         <div>
-            <Theme data={} />
+            <Theme name={props.selected} />
         </div>
     )
 }
