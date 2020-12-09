@@ -52,7 +52,7 @@ function Theme({data}) {
                     >
                         <td>
                             <i
-                                class="fas fa-phone-alt"
+                                className="fas fa-phone-alt"
                                 style={{
                                     
                                 }}

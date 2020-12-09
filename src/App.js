@@ -5,8 +5,7 @@ import Footer from './components/Footer';
 import Editor from './components/Editor';
 // import Source from './components/Source';
 import ThemePicker from './components/ThemePicker';
-import Preview from './components/Preview';
-// import Theme from './components/Theme';
+import Theme from './components/Theme';
 
 
 function App() {
@@ -42,8 +41,6 @@ function App() {
       <ThemePicker selected={selected} setSelected={setSelected} />
       <main>
         <Editor data={data} setData={setData} />
-        <Preview selected={selected}/>
-        <ThemePicker selected={selected} setSelected={setSelected} />
         <Theme name={selected} data={data} />
       </main>
       {/* <Footer /> */}
