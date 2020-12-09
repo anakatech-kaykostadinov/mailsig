@@ -5,6 +5,8 @@ function Theme({data}) {
 
     return (
         <table
+            className='table'
+            id='table-content'
             background={bg}
             cellPadding="0"
             cellSpacing="0"
