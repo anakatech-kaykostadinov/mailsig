@@ -17,22 +17,31 @@ function App() {
     website: '',
     address: '',
     social: {
-        fb: '',
-        ig: '',
-        linkedin: '',
+        fb: {
+          link: '',
+          icon: 'fab fa-facebook',
+        },
+        ig: {
+          link: '',
+          icon: 'fab fa-instagram',
+        },
+        linkedin: {
+          link: '',
+          icon: 'fab fa-linkedin-in',
+        },
     }
 })
 
 const [selected, setSelected] = useState('')
 
 
-
   return (
     <div className="ms-main">
       <Header/>
       <main>
-        <Editor data={data} setData={setData} />
         <ThemePicker selected={selected} setSelected={setSelected} />
+        <Editor data={data} setData={setData} />
+        <Theme name={selected} data={data} />
       </main>
       <Footer />
     </div>
