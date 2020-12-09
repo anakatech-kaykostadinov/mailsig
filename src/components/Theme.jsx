@@ -17,6 +17,7 @@ function Theme({data}) {
                 height: '234px',
                 margin: '2rem 0'
             }}
+            id="table-content"
         >
             <tbody>
                 <tr style={{

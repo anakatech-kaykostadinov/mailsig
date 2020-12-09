@@ -1,5 +1,18 @@
 // main: style.scss
-.ms-main__preview{
-  margin: 3rem auto;
+.preview-col{
+  display: flex;
+  flex-direction: column;
 
+  .copy-btn{
+    display: block;
+    background: #24272e;
+    color: white;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 0.75rem;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
 }

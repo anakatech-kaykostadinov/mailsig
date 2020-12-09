@@ -4,7 +4,7 @@ import image2 from '../images/templates/nm.jpg';
 import $ from 'jquery';
 
 function ThemePicker(props) {
-    const { selected, setSelected } = props;
+    const { setSelected } = props;
     const [open, setOpen] = useState(false);
     useEffect(() => {
         if (open) {
