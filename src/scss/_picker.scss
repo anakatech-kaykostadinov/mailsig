@@ -14,16 +14,23 @@
       cursor: pointer;
     }
   }
+  .showSlide-wrap{
+    width: 100%;
+    border-top: 4px solid #27aae1;
+  }
   .showSlide{
     display: block;
     margin: 0 auto;
-    background-color: #24272e;
-    border: none;
+    padding: 1px 15px;
+    background-color: #27aae1;
     color: white;
-    width: 130px;
+    font-weight: 600;
+    font-size: 1rem;
+    min-width: 155px;
+    border: none;
     border-radius: 0 0 30px 30px;
     cursor: pointer;
-
+    
     &:focus, &:active{
       border: none;
       outline: none;

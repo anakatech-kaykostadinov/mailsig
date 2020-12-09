@@ -29,6 +29,8 @@ function Editor(props) {
                     <input name='instagram' placeholder='instagram' value={data.social.ig.link} onChange={e => setData({ ...data, social: { ...data.social, ig: { ...data.social.ig, link: e.target.value } } })}></input>
                     <label htmlFor="linkedin">LinkedIn</label>
                     <input name='linkedin' placeholder='linkedin' value={data.social.linkedin.link} onChange={e => setData({ ...data, social: { ...data.social, linkedin: { ...data.social.linkedin, link: e.target.value } } })}></input>
+                    <label htmlFor="twitter">Twitter</label>
+                    <input name='twitter' placeholder='twitter' value={data.social.twitter.link} onChange={e => setData({ ...data, social: { ...data.social, twitter: { ...data.social.twitter, link: e.target.value } } })}></input>
                 </div>
             </div>
         </section>

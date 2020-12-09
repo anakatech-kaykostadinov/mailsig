@@ -28,6 +28,10 @@ function App() {
         link: '',
         icon: 'fab fa-linkedin-in',
       },
+      twitter: {
+        link: '',
+        icon: 'fab fa-twitter',
+      },
     }
   })
 

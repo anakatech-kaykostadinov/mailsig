@@ -18,16 +18,18 @@ function ThemePicker(props) {
         <>
             <div className="ms-main__theme-picker">
                 <img src={image1} alt="" name='np' onClick={e => {
-                    setSelected(e.target.name);  
+                    setSelected(e.target.name);
                 }} />
                 <img src={image2} alt="" name='nm' onClick={e => {
                     setSelected(e.target.name)
                 }} />
 
             </div>
-            <button className="showSlide" onClick={() => setOpen(!open)}>
-                {open ? 'Close' : 'Show Templates'}
-            </button>
+            <div className="showSlide-wrap">
+                <button className="showSlide" onClick={() => setOpen(!open)}>
+                    {open ? 'Close' : 'Show Templates'}
+                </button>
+            </div>
 
         </>
     )
