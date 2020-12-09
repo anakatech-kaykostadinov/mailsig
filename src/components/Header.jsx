@@ -8,7 +8,6 @@ function Header() {
             </div>
             <div>
                 <h3>AnakaMail</h3>
-                <h5>Signature generator</h5>
             </div>
         </header>
     )
