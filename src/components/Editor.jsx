@@ -8,7 +8,7 @@ function Editor(props) {
         <section className='ms-main__editor'>
             <h4>Your details:</h4>
             <input name='name' placeholder='name' value={data.name} onChange={e => setData({...data, name:e.target.value})}></input>
-            <input name='title' placeholder='title' value={data.title} onChange={e => setData({...data, title:e.target.value})}></input>
+            <input name='position' placeholder='position' value={data.position} onChange={e => setData({...data, position:e.target.value})}></input>
             <input name='phone' placeholder='phone' value={data.phone} onChange={e => setData({...data, phone:e.target.value})}></input>
             <input name='fax' placeholder='fax' value={data.fax} onChange={e => setData({...data, fax:e.target.value})}></input>
             <input name='website' placeholder='website' value={data.website} onChange={e => setData({...data, website:e.target.value})}></input>

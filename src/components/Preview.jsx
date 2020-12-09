@@ -4,9 +4,9 @@ import Theme from './Theme'
 function Preview(props) {
 
     return (
-        <div>
+        <section className="ms-main__preview">
             <Theme name={props.selected} />
-        </div>
+        </section>
     )
 }
 
