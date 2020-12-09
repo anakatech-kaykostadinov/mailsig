@@ -12,20 +12,28 @@ import Preview from './components/Preview';
 function App() {
   const [data, setData] = useState({
     name: '',
-    position: '',
+    title: '',
     phone: '',
     fax: '',
     website: '',
     address: '',
     social: {
-      fb: '',
-      ig: '',
-      linkedin: '',
+        fb: {
+          link: '',
+          icon: 'fab fa-facebook',
+        },
+        ig: {
+          link: '',
+          icon: 'fab fa-instagram',
+        },
+        linkedin: {
+          link: '',
+          icon: 'fab fa-linkedin-in',
+        },
     }
   })
 
   const [selected, setSelected] = useState('')
-
 
 
   return (
@@ -35,6 +43,8 @@ function App() {
       <main>
         <Editor data={data} setData={setData} />
         <Preview selected={selected}/>
+        <ThemePicker selected={selected} setSelected={setSelected} />
+        <Theme name={selected} data={data} />
       </main>
       {/* <Footer /> */}
     </div>

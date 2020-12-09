@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer className='ms-main__footer' >
             <p>
-                Copytight  &#169; Anakatech {new Date().getFullYear()}
+                Copytight &#169; Anakatech {new Date().getFullYear()} 
             </p>
         </footer>
     )
