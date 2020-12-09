@@ -8,6 +8,7 @@
         padding: 0 60px;
         display: flex;
         justify-content: center;
+        align-items: center;
         z-index: 1000;
 
         img{
@@ -15,12 +16,9 @@
             margin-right: 20px;
         }
         h3{
-            font-size: 2rem;
-            margin: 5px 0 0;
-        }
-        h5 {
-            text-align: center;
+            font-size: 3rem;
             margin: 0;
         }
+
     }
 }

@@ -41,9 +41,19 @@ function App() {
       <ThemePicker selected={selected} setSelected={setSelected} />
       <main>
         <Editor data={data} setData={setData} />
-        <Theme name={selected} data={data} />
+        {
+          (()=> {
+            switch (selected) {
+              case 'nm':
+                return <Theme name={selected} data={data} />
+              default:
+                break;
+            }
+          })()
+        }
+        
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
