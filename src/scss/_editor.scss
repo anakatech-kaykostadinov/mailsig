@@ -4,14 +4,43 @@
     &__editor {
         display: flex;
         flex-direction: column;
-        width: 30vw;
+
+
+        h4 {
+            margin-left: 1rem;
+            text-align: center;
+        }
+
+        .rows {
+            display: flex;
+
+            .row_one, .row_two {
+                display: flex;
+                flex-direction: column;
+            }
+        }
 
         input {
-            border: 1px solid lighten($primary, 50%);
+            border: 3px solid #eee;
             padding: .5rem 1rem;
-            margin: .5rem 0;
+            margin: .25rem 1rem;
+            margin-bottom: 1rem;
             border-radius: 5px;
+            width: 350px;
+            outline: none;
+            transition: all .3s ease;
+            font: inherit;
 
+            &:hover, &:active, &:focus {
+                border: 3px solid darken($color: lightblue, $amount: 20);
+                outline: none;
+            }
+        }
+
+        label {
+            margin-left: 1.5rem;
+            color: $primary;
+            font-size: .9rem;
         }
     }
 }

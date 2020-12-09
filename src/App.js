@@ -5,7 +5,8 @@ import Footer from './components/Footer';
 import Editor from './components/Editor';
 // import Source from './components/Source';
 import ThemePicker from './components/ThemePicker';
-import Theme from './components/Theme';
+import ThemeNP1 from './components/ThemeNp1';
+import ThemeNP2 from './components/ThemeNp2';
 
 
 function App() {
@@ -45,13 +46,14 @@ function App() {
           (()=> {
             switch (selected) {
               case 'nm':
-                return <Theme name={selected} data={data} />
+                return <ThemeNP1 name={selected} data={data} />
+              case 'np':
+                return <ThemeNP2 name={selected} data={data} />
               default:
                 break;
             }
           })()
         }
-        
       </main>
       <Footer />
     </div>

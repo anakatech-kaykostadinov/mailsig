@@ -15,7 +15,8 @@ function Theme({data}) {
                 padding: '1rem 5rem',
                 width: '816px',
                 height: '234px',
-                margin: '2rem 0'
+                margin: '2rem 0',
+                whiteSpace: 'nowrap' 
             }}
         >
             <tbody>
