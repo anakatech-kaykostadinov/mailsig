@@ -1,10 +1,12 @@
 import React from 'react'
-import bg from '../images/nm.png'
+import bg from '../images/nm-2.png'
 
 function Theme({data}) {
 
     return (
         <table
+            className='table'
+            id='table-content'
             background={bg}
             cellPadding="0"
             cellSpacing="0"
@@ -12,45 +14,54 @@ function Theme({data}) {
                 verticalAlign: '-webkit-baseline-middle',
                 fontSize: '16px',
                 fontFamily: 'Verdana',
-                padding: '1rem 5rem',
+                padding: '.7rem 4rem',
+                paddingBottom: '.7rem',
                 width: '816px',
-                height: '234px',
-                margin: '2rem 0'
+                minWidth: '816px',
+                height: '240px',
+                minHeight: '240px',
+                margin: '2rem 0',
+                whiteSpace: 'nowrap' 
             }}
-            id="table-content"
         >
             <tbody>
                 <tr style={{
                         color: '#262626',
                         fontSize: '24px',
                         fontWeight: '600',
-                        height: '1rem'
+                        height: '1rem',
+                        whiteSpace: 'nowrap' 
                     }}
                 >
                     <td>{data.name}</td>
                 </tr>
                 <tr style={{height: '1rem'}}>
                     <td style={{
-                            color: 'teal',
+                            color: 'orange',
                             fontWeight: '600',
+                            whiteSpace: 'nowrap' 
 
                         }}
                     >{data.title}</td>
                 </tr>
 
                 <tr style={{
-                        color: 'white',
-                        height: '3.5rem',
-                        verticalAlign: 'bottom'
+                        color: '#262626',
+                        height: '4rem',
+                        verticalAlign: 'bottom',
+                        whiteSpace: 'nowrap' 
                     }}
                 >
-                    <td>
+                    <td style={{
+                        width: '150px'
+                    }}
+                    >
                         {data.phone &&
                         <React.Fragment >
                             <i
                                 className="fas fa-phone-alt"
                                 style={{
-                                    backgroundColor: 'lightblue',
+                                    backgroundColor: 'orange',
                                     borderRadius: '50%',
                                     fontSize: '.7rem',
                                     padding: '.3rem',
@@ -62,10 +73,27 @@ function Theme({data}) {
                         </React.Fragment>
                         }
                     </td>
+                    <td style={{
+                        color: '#262626',
+                        height: '2.5rem',
+                        verticalAlign: 'bottom',
+                        paddingBottom: '3px',
+                        paddingLeft: '.5rem',
+                    }}
+                    >
+                        <a
+                            style={{
+                                color: '#262626',
+                                fontWeight: '600',
+                                textDecoration: 'none',
+                            }}
+                            href={data.website}
+                        >{data.website}</a>
+                    </td>
                 </tr>
 
                 <tr style={{
-                        color: 'white',
+                        color: '#262626',
                         height: '1.5rem',
                         verticalAlign: 'bottom'
                     }}
@@ -76,7 +104,7 @@ function Theme({data}) {
                             <i
                                 class="fas fa-phone-alt"
                                 style={{
-                                    backgroundColor: 'lightblue',
+                                    backgroundColor: 'orange',
                                     borderRadius: '50%',
                                     fontSize: '.7rem',
                                     padding: '.3rem',
@@ -88,61 +116,48 @@ function Theme({data}) {
                         </React.Fragment>
                         }
                     </td>
-                </tr>
-
-                <tr style={{
-                        color: 'white',
-                        height: '2.5rem',
-                        verticalAlign: 'bottom'
-                    }}
-                >
-                    <td>
-                        <a
-                            style={{
-                                color: 'lightblue',
-                                fontWeight: '600',
-                                textDecoration: 'none'
-                            }}
-                            href={data.website}
-                        >{data.website}</a>
-                    </td>
-                </tr>
-
-                <tr style={{
-                    color: 'white',
-                }}
-                >
-                    <td>
+                    <td style={{paddingBottom: '4px', paddingLeft: '.5rem'}}>
                         {data.address} 
                     </td>
+                </tr>
+            </tbody>
+            <div>
+                <div style={{
+                    color: '#262626',
+                    display: 'flex',
+                    position: 'relative',
+                    left: '150px',
+                    bottom: '0',
+                    marginTop: '2.8rem',
+                }}
+                >
+
                     { // social media buttons
                         Object.entries(data.social).map( (media, key) => {
                             // show only if field is populated
                             if (media[1].link !== '') {
                                 return (
-                                    <td key={key}
+                                    <div key={key}
                                         style={{
-                                            textAlign: 'right',
-                                            width: '1rem',
-                                            padding: '0 .25rem'
+                                            padding: '0 .25rem',
                                     }}
                                     >
                                         <a href={media[1].link}>
                                             <i 
                                                 className={media[1].icon}
                                                 style={{
-                                                    color: 'lightblue',
-                                                    fontSize: '2rem'
+                                                    color: '#F2F2F2',
+                                                    fontSize: '2.3rem',
                                                 }}
                                             ></i>
                                         </a>
-                                    </td> 
+                                    </div> 
                                 );
                             }
                         })
                     }
-                </tr>
-            </tbody>
+                </div>
+            </div>
         </table>
     )
 }

@@ -3,7 +3,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Editor from './components/Editor';
 import ThemePicker from './components/ThemePicker';
-import Theme from './components/Theme';
+import ThemeNP1 from './components/ThemeNp1';
+import ThemeNP2 from './components/ThemeNp2';
 
 
 function App() {
@@ -50,21 +51,23 @@ function App() {
       <main>
         <Editor data={data} setData={setData} />
         <section className="preview-col">
-
-          {
-            (() => {
-              switch (selected) {
-                case 'nm':
-                  return <Theme name={selected} data={data} />
-                default:
-                  break;
-              }
-            })()
-          }
+        {
+          (()=> {
+            switch (selected) {
+              case 'nm':
+                return <ThemeNP1 name={selected} data={data} />
+              case 'np':
+                return <ThemeNP2 name={selected} data={data} />
+              default:
+                break;
+            }
+          })()
+        }
           <button className="copy-btn" onClick={copyToClipboard}>
             <i className="far fa-copy"></i> Copy Signature
           </button>
         </section>
+        
       </main>
       <Footer />
     </div>
