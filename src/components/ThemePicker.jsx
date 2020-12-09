@@ -18,8 +18,7 @@ function ThemePicker(props) {
         <>
             <div className="ms-main__theme-picker">
                 <img src={image1} alt="" name='np' onClick={e => {
-                    setSelected(e.target.name);
-                    
+                    setSelected(e.target.name);  
                 }} />
                 <img src={image2} alt="" name='nm' onClick={e => {
                     setSelected(e.target.name)
