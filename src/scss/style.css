@@ -1,0 +1,95 @@
+html {
+  scroll-behavior: smooth;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1rem;
+}
+
+@media (min-width: 576px) {
+  main {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 0 60px;
+  }
+}
+
+.ms-main__header {
+  background-color: #24272e;
+  position: relative;
+  color: whitesmoke;
+  padding: 0 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1000;
+}
+
+.ms-main__header img {
+  width: 70px;
+  margin-right: 20px;
+}
+
+.ms-main__header h3 {
+  font-size: 2rem;
+  margin: 5px 0 0;
+}
+
+.ms-main__header h5 {
+  text-align: center;
+  margin: 0;
+}
+
+.ms-main__footer {
+  background-color: #282C34;
+  color: whitesmoke;
+  padding: 1.5rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.ms-main__footer p {
+  text-align: center;
+}
+
+.ms-main__editor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30vw;
+}
+
+.ms-main__editor input {
+  border: 1px solid #a3aab8;
+  padding: .5rem 1rem;
+  margin: .5rem 0;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */

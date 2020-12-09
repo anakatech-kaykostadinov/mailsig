@@ -47,7 +47,7 @@ function Theme({data}) {
                         {data.phone &&
                         <React.Fragment >
                             <i
-                                class="fas fa-phone-alt"
+                                className="fas fa-phone-alt"
                                 style={{
                                     backgroundColor: 'lightblue',
                                     borderRadius: '50%',
