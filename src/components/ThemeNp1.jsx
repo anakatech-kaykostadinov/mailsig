@@ -134,15 +134,13 @@ function Theme({data}) {
                                             padding: '0 .25rem'
                                     }}
                                     >
-                                        <a href={media[1].link}>
-                                            <i 
-                                                className={media[1].icon}
-                                                style={{
-                                                    color: 'lightblue',
-                                                    fontSize: '2rem'
-                                                }}
-                                            ></i>
-                                        </a>
+                                        <img
+                                        style={{
+                                            width: '2rem',
+                                            height: '2rem'
+                                        }}
+                                        src={media[1].icon}
+                                        alt="social media"/>
                                     </td> 
                                 );
                             }
