@@ -2,12 +2,13 @@ import React from 'react'
 import bg from '../images/nm.png'
 
 function Theme({data}) {
+    
 
     return (
         <table
             className='table'
             id='table-content'
-            background={bg}
+            background='https://lh3.googleusercontent.com/pQ9Df9YiNOgZCRA3UBSjb1-yxYc32K4PJ9TxVOsypWKmRDGAD0tUdRcM5P5JPnEq0sAXfJzr1Nc6QVI7ITFd72Bd-DWmuIBDUxcBEdA6J03HhSp83UMVqVakBebyNWPiQDv2SW2vbh810bs15eVZVXJX1-IrPZTWm-vm6gF2sfS03kP5lCDbZSdwz3VHTSmZI00BVtWfgBtdDFdtBPy6FXOco2qloKSM1zOo3BLO2ywm1TtiIHSeHQQHTF1diIcHBEVmNcvqbC43SIvsAEorN9lPNjLS7jRXLAkRw-zguuzA9Dxqedn5CzRMCbuQuoOtcA_m54VNhex6NKEucZqYdCmORdSWOxM_KcRO9SNVFBlJDYf6QB83TWLxqrFwv7DjfhetIcwX5TbBmwx3lwoGktHV5nMRKKNIEyrfmTSzwTjhrI2IDRHzAhOAPiA_p5k7xptPB9sbH3kMoORUoYE7ZASg3s1ugrdQPptnyIUFvPKLK42tztFBrs7PXeVNm6A2eG4mKQVUDaG4vFweN5l-TFgxT7jT5v-c3_LXCQu4tyg7Lw4hPGOiv94BZ9fl11EgYnWWFIGRAk4M2odZZnNEziUTIDtnTOprhQrap8o7wmn5HDIomtuSwOKzSKvxE_1RbbofSHa0svSmYdVN-NOeqL0vCSiYQGTL5BAoXWLcI_RFiWW8_nACqfXwxHU=w816-h234-no?authuser=0'
             cellPadding="0"
             cellSpacing="0"
             style={{

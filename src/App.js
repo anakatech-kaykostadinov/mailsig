@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Editor from './components/Editor';
-// import Source from './components/Source';
 import ThemePicker from './components/ThemePicker';
 import ThemeNP1 from './components/ThemeNp1';
 import ThemeNP2 from './components/ThemeNp2';
