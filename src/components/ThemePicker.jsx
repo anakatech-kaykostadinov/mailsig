@@ -4,7 +4,7 @@ import image2 from '../images/templates/nm.jpg';
 import $ from 'jquery';
 
 function ThemePicker(props) {
-    const { selected, setSelected } = props;
+    const { setSelected } = props;
     const [open, setOpen] = useState(false);
     useEffect(() => {
         if (open) {
@@ -19,16 +19,17 @@ function ThemePicker(props) {
             <div className="ms-main__theme-picker">
                 <img src={image1} alt="" name='np' onClick={e => {
                     setSelected(e.target.name);
-                    
                 }} />
                 <img src={image2} alt="" name='nm' onClick={e => {
                     setSelected(e.target.name)
                 }} />
 
             </div>
-            <button className="showSlide" onClick={() => setOpen(!open)}>
-                {open ? 'Close' : 'Show Templates'}
-            </button>
+            <div className="showSlide-wrap">
+                <button className="showSlide" onClick={() => setOpen(!open)}>
+                    {open ? 'Close' : 'Show Templates'}
+                </button>
+            </div>
 
         </>
     )

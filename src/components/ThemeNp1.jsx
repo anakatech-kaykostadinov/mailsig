@@ -21,6 +21,7 @@ function Theme({data}) {
                 margin: '2rem 0',
                 whiteSpace: 'nowrap' 
             }}
+            id="table-content"
         >
             <tbody>
                 <tr style={{
