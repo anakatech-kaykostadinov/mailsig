@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/mailsig/static/css/main.cdcaae8e.chunk.css",
+    "main.js": "/mailsig/static/js/main.203cdc76.chunk.js",
+    "main.js.map": "/mailsig/static/js/main.203cdc76.chunk.js.map",
+    "runtime-main.js": "/mailsig/static/js/runtime-main.c73ede2b.js",
+    "runtime-main.js.map": "/mailsig/static/js/runtime-main.c73ede2b.js.map",
+    "static/css/2.33952032.chunk.css": "/mailsig/static/css/2.33952032.chunk.css",
+    "static/js/2.af98a8d5.chunk.js": "/mailsig/static/js/2.af98a8d5.chunk.js",
+    "static/js/2.af98a8d5.chunk.js.map": "/mailsig/static/js/2.af98a8d5.chunk.js.map",
+    "static/js/3.23086238.chunk.js": "/mailsig/static/js/3.23086238.chunk.js",
+    "static/js/3.23086238.chunk.js.map": "/mailsig/static/js/3.23086238.chunk.js.map",
+    "index.html": "/mailsig/index.html",
+    "static/css/2.33952032.chunk.css.map": "/mailsig/static/css/2.33952032.chunk.css.map",
+    "static/css/main.cdcaae8e.chunk.css.map": "/mailsig/static/css/main.cdcaae8e.chunk.css.map",
+    "static/js/2.af98a8d5.chunk.js.LICENSE.txt": "/mailsig/static/js/2.af98a8d5.chunk.js.LICENSE.txt",
+    "static/media/header-logo.6e2ae94b.png": "/mailsig/static/media/header-logo.6e2ae94b.png",
+    "static/media/nm-2.0131559f.png": "/mailsig/static/media/nm-2.0131559f.png",
+    "static/media/nm.6bf4324a.jpg": "/mailsig/static/media/nm.6bf4324a.jpg",
+    "static/media/nm.f7d08900.png": "/mailsig/static/media/nm.f7d08900.png",
+    "static/media/np.aab4110e.jpg": "/mailsig/static/media/np.aab4110e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c73ede2b.js",
+    "static/css/2.33952032.chunk.css",
+    "static/js/2.af98a8d5.chunk.js",
+    "static/css/main.cdcaae8e.chunk.css",
+    "static/js/main.203cdc76.chunk.js"
+  ]
+}
