@@ -20,7 +20,7 @@ function Theme({ data }) {
                 maxHeight: '234px',
                 margin: '2rem 0',
                 whiteSpace: 'nowrap',
-                backgroundImage: "url('https://lh3.googleusercontent.com/z5CTpQ96HuhKu7TVYOE9amM1zRv1AmPYbck1vKoBc9K2J5zkSerCjXXsJ4DeWmPa_X3odT8YDf3qiY1gFU2XAeff54F6rnpJrXD5_02r0ondkmypIUUhsd7TCpjO7h9FTYMAf8aGHeomcG7PSCKC4a_0oW7Be4Q4Z14SGPjMjuhKFw-CUuhfuQ116J5I8IldPA9dn1IlUC7bq1x8U9vnq5_t1ItiKRK4lxHkLIsjm_Om92izB3VgyxKSg0cNILb2dEITPPEIAKtPwJYgUgWXqzFEE5GhMxd5_2QgK6bb3aadtpUUIozfap6BusNrAOmoemYnko5F5PslKfE-nYS56IarSC3A7goU4n7ld1xO9GCXVGNvHnUf7Md1YJn_r4DHgzdqZjM5aXHeV7Zaa39XbPLdx-6CwNiAuXW5ZvxocWffhF_XS9YhTD8BSwyfGskk41ZThfYWJwNz0GW9YKy8ni75JIOS0oLgf48zkrSOdM_EcuMMKTZagpQ0JkyJYPaci_5Qk3JqDkkPLRhnklo6JvGNbI_7SvOlhhPo1YJqaN3ggIYqylIdB2VY3iDY3GxzyR5r_YbcrGfWfGPZaQFDnauHWwsBbjOexnLAEzA0IS5sOSzm7zRkEYJoZo2GrWaVp6tckTxuJemftULEghnHIV5HLFcG5O080p9tWeiNvf4B_GH5UhJxQ420bVY=w816-h243-no?authuser=0')",
+                backgroundImage: "url('https://raw.githubusercontent.com/anakatech-kaykostadinov/mailsig/gh-pages/static/media/nm.f7d08900.png')",
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'contain'
             }}
