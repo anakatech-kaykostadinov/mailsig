@@ -16,11 +16,10 @@ function Theme({data}) {
                 fontFamily: 'Verdana',
                 padding: '1rem 5rem',
                 width: '816px',
-                maxWidth: '100%',
                 height: '234px',
                 margin: '2rem 0',
                 whiteSpace: 'nowrap',
-                backgroundImage: "url('https://lh3.googleusercontent.com/pQ9Df9YiNOgZCRA3UBSjb1-yxYc32K4PJ9TxVOsypWKmRDGAD0tUdRcM5P5JPnEq0sAXfJzr1Nc6QVI7ITFd72Bd-DWmuIBDUxcBEdA6J03HhSp83UMVqVakBebyNWPiQDv2SW2vbh810bs15eVZVXJX1-IrPZTWm-vm6gF2sfS03kP5lCDbZSdwz3VHTSmZI00BVtWfgBtdDFdtBPy6FXOco2qloKSM1zOo3BLO2ywm1TtiIHSeHQQHTF1diIcHBEVmNcvqbC43SIvsAEorN9lPNjLS7jRXLAkRw-zguuzA9Dxqedn5CzRMCbuQuoOtcA_m54VNhex6NKEucZqYdCmORdSWOxM_KcRO9SNVFBlJDYf6QB83TWLxqrFwv7DjfhetIcwX5TbBmwx3lwoGktHV5nMRKKNIEyrfmTSzwTjhrI2IDRHzAhOAPiA_p5k7xptPB9sbH3kMoORUoYE7ZASg3s1ugrdQPptnyIUFvPKLK42tztFBrs7PXeVNm6A2eG4mKQVUDaG4vFweN5l-TFgxT7jT5v-c3_LXCQu4tyg7Lw4hPGOiv94BZ9fl11EgYnWWFIGRAk4M2odZZnNEziUTIDtnTOprhQrap8o7wmn5HDIomtuSwOKzSKvxE_1RbbofSHa0svSmYdVN-NOeqL0vCSiYQGTL5BAoXWLcI_RFiWW8_nACqfXwxHU=w816-h234-no?authuser=0')",
+                backgroundImage: "url('https://lh3.googleusercontent.com/fife/ABSRlIpLZKEd4EEFM4V7tPKeJXMMTb3FGvafWj-OgDz4Grbw7viiWhu1fNB03r9RTpbhPhALDEE8q47oqHE1IJDIm0i-jp30e9GEgZmvgx92GRvNPi-jINv4cjFxG0I8WoQpW6iZsVVi3Vvz62kylYldUY0amd25mvjg60T0PRQlCZ-104pvlwFfSr1oAFpsg6WEzbWoG7GkVzCMHu57_AIedcqHRgGKhx80AQhdR9Llwfnio3L7X1W-K9exWTicmuOXvpfsWZ4GQm1iwOMm3ul6xcpbetxW1paFra5s8Er-HmIrXewohtrU24zbkHy1Y-CD5R6iVCCVJ8BWwX3EawaVHOfAWRxPXATsYwBdOdNZyq-K_pkJ_i0Dp1att5etH499tjmxFShd2O-o7adSpJ-qJCRd87H8lZhmpreS_LSmA-joQwm81_aYQvb4w1QRnAm5uGGg_2T5GeGMzRyid9yUooao22n3eJzwEyNjXOLoefhkL_tLoEiLLY-P8Se9A2wyASzVnB6xfY4_-Xo0vqwuL_BYenzgpWczk-3DTKXn-KwUnDe987XPtppGVJtv5PC7JizbYXZaUL5upMdlLPJZIj0Izbevb1nRhwT3U34cuKpes1ngU1a0Ld_MOMw4dABfjDs-MvLRoVaQpiXRY5lkzEFK9uF4Sg04xxNK2C5DXy8Iiv3IymknZPoTT5IiOFchsLtca0sLV3X3vX7adlejrkmZ-wVqc9gzYbQ=s816-w816-h234-no?authuser=0')",
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'contain'
             }}
@@ -54,17 +53,14 @@ function Theme({data}) {
                     <td>
                         {data.phone &&
                         <React.Fragment >
-                            <i
-                                className="fas fa-phone-alt"
-                                style={{
-                                    backgroundColor: 'lightblue',
-                                    borderRadius: '50%',
-                                    fontSize: '.7rem',
-                                    padding: '.3rem',
-                                    color: '#262626',
-                                    marginRight: '.5rem'
-                                }}
-                            ></i>
+                            <img
+                            style={{
+                                height: '1.2rem',
+                                width: '1.2rem',
+                                marginRight: '.5rem',
+                                marginBottom: '-4px'
+                            }} 
+                            src="https://lh3.googleusercontent.com/0NV5R8VTgHu0xOGmfUkTrLqL9dq0bGcS1iUa7p3_Et_RRLvfLxKqH1FIjAnvRjf0u-ZQ7m_bFQKaVE7HuWC8A2vMNwjFn0Z2szUqdR7Zlvi_FINy6r0I2E8gSYt80X3GjJ0-CUyxcKwag8AukCUs_7EgSpCl2KO-DNP2MI0kvfUeOltCrBu6wmWqtrbB9SH0h9MlxhXdoIiBu5f-2eKacAmcY2BGrDVJ74s7jZnK4sxzT0CQMSIgQehD1F-baeAYw_LXtPe7QcoboguPNQCxIx6zdMOPsZqMi4PwWLdrKxuRU2Mtp03ry_md1-VBy-aQgdphHa1J0xrcLj9PbicwfVPMpzGnOxzvfuwt8i1eAS60EQlstHp-L7SWOuWEll5OiRwPJ5Sh8cH8pLYZg3LWYB72-HjxDK3lMfddaOVWenMhtezonFf2GFzClZMq4U4jpHeBZdpI3RaCPSYGMLHpDMj6Iu3hNOLkDM7wZrvAVccOmj7LwsxitFq39n-61-4Sv52j0nshygIpa8HO8qJDx-bG37FOrpFRMVMXxv-8fIskDRxr4LwzFYs4O0ypRrPs2uaqm0ql5mf8UutwiKNG4NVFgjMe0LUNXgrYJFWA_28UVLQ6UP0JV1DURvLfpj9s51ACAdrogr60Z9LgXulMQT_pynp8qvE6AiuJO77gXHQPGHAmHSpJqpZiT0w=w19-h20-no?authuser=0" alt=""/>
                             {data.phone}
                         </React.Fragment>
                         }
@@ -80,17 +76,14 @@ function Theme({data}) {
                     <td>
                         {data.fax &&
                         <React.Fragment>
-                            <i
-                                class="fas fa-phone-alt"
-                                style={{
-                                    backgroundColor: 'lightblue',
-                                    borderRadius: '50%',
-                                    fontSize: '.7rem',
-                                    padding: '.3rem',
-                                    color: '#262626',
-                                    marginRight: '.5rem'
-                                }}
-                            ></i>
+                            <img
+                            style={{
+                                height: '1.2rem',
+                                width: '1.2rem',
+                                marginRight: '.5rem',
+                                marginBottom: '-4px'
+                            }} 
+                            src="https://lh3.googleusercontent.com/0NV5R8VTgHu0xOGmfUkTrLqL9dq0bGcS1iUa7p3_Et_RRLvfLxKqH1FIjAnvRjf0u-ZQ7m_bFQKaVE7HuWC8A2vMNwjFn0Z2szUqdR7Zlvi_FINy6r0I2E8gSYt80X3GjJ0-CUyxcKwag8AukCUs_7EgSpCl2KO-DNP2MI0kvfUeOltCrBu6wmWqtrbB9SH0h9MlxhXdoIiBu5f-2eKacAmcY2BGrDVJ74s7jZnK4sxzT0CQMSIgQehD1F-baeAYw_LXtPe7QcoboguPNQCxIx6zdMOPsZqMi4PwWLdrKxuRU2Mtp03ry_md1-VBy-aQgdphHa1J0xrcLj9PbicwfVPMpzGnOxzvfuwt8i1eAS60EQlstHp-L7SWOuWEll5OiRwPJ5Sh8cH8pLYZg3LWYB72-HjxDK3lMfddaOVWenMhtezonFf2GFzClZMq4U4jpHeBZdpI3RaCPSYGMLHpDMj6Iu3hNOLkDM7wZrvAVccOmj7LwsxitFq39n-61-4Sv52j0nshygIpa8HO8qJDx-bG37FOrpFRMVMXxv-8fIskDRxr4LwzFYs4O0ypRrPs2uaqm0ql5mf8UutwiKNG4NVFgjMe0LUNXgrYJFWA_28UVLQ6UP0JV1DURvLfpj9s51ACAdrogr60Z9LgXulMQT_pynp8qvE6AiuJO77gXHQPGHAmHSpJqpZiT0w=w19-h20-no?authuser=0" alt=""/>
                             {data.fax}
                         </React.Fragment>
                         }
