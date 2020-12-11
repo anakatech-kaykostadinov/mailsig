@@ -22,7 +22,7 @@ function Theme({ data }) {
                 whiteSpace: 'nowrap',
                 backgroundImage: "url('https://raw.githubusercontent.com/anakatech-kaykostadinov/mailsig/gh-pages/static/media/nm.f7d08900.png')",
                 backgroundRepeat: 'no-repeat',
-                backgroundSize: 'contain'
+                backgroundSize: 'cover'
             }}
         >
             <tbody>
