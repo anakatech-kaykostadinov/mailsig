@@ -19,19 +19,19 @@ function App() {
     social: {
       fb: {
         link: '',
-        icon: 'https://raw.githubusercontent.com/anakatech-kaykostadinov/mailsig/main/src/images/facebook.png'
+        icon: 'https://github.com/anakatech-kaykostadinov/mailsig/blob/main/src/images/filled_icons/facebook%20(1).png?raw=true'
       },
       ig: {
         link: '',
-        icon: 'https://raw.githubusercontent.com/anakatech-kaykostadinov/mailsig/main/src/images/instagram.png'
+        icon: 'https://github.com/anakatech-kaykostadinov/mailsig/blob/main/src/images/filled_icons/instagram%20(1).png?raw=true'
       },
       linkedin: {
         link: '',
-        icon: 'https://raw.githubusercontent.com/anakatech-kaykostadinov/mailsig/main/src/images/linkedin.png'
+        icon: 'https://github.com/anakatech-kaykostadinov/mailsig/blob/main/src/images/filled_icons/linkedin%20(1).png?raw=true'
       },
       twitter: {
         link: '',
-        icon: 'https://raw.githubusercontent.com/anakatech-kaykostadinov/mailsig/main/src/images/twitter.png'
+        icon: 'https://github.com/anakatech-kaykostadinov/mailsig/blob/main/src/images/filled_icons/twitter%20(1).png?raw=true'
       },
     }
   })
