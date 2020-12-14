@@ -1,5 +1,4 @@
 import React from 'react'
-import bg from '../images/nm-2.png'
 
 function Theme({ data }) {
     return (
@@ -20,7 +19,7 @@ function Theme({ data }) {
                 maxHeight: '234px',
                 margin: '2rem 0',
                 whiteSpace: 'nowrap',
-                backgroundImage: "url('https://raw.githubusercontent.com/anakatech-kaykostadinov/mailsig/gh-pages/static/media/nm.f7d08900.png')",
+                backgroundImage: "url('https://raw.githubusercontent.com/-kaykostadinov/mailsig/gh-pages/static/media/nm.f7d08900.png')",
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover'
             }}

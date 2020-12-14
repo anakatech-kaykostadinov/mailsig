@@ -1,0 +1,40 @@
+// main: style.scss
+
+.alert {
+    position: fixed;
+    opacity: 0;
+    left: 40%;
+    right: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 50px;
+    color: white;
+    animation: fadein 3s;
+
+    &--success {
+        background-color: green;
+    }
+
+    &--danger {
+        background-color: red;
+    }
+}
+
+
+@keyframes fadein {
+    0%      { opacity: 0; }
+    20%     { opacity: 1; }
+    80%     { opacity: 1; }
+    100%    { opacity: 0; }
+}
+
+// @media screen and (min-width: 620px){
+//     @keyframes fadein {
+//         0%      { opacity: 0; top: 0; }
+//         20%     { opacity: 1; top: 4em; }
+//         80%     { opacity: 1; top: 4em; }
+//         100%    { opacity: 0; top: 0; }
+//     }
+// }
